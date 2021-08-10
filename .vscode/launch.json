@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\somya\\Downloads\\complete-javascript-course-master\\complete-javascript-course-master\\11-Arrays-Bankist\\starter",
+      "environment": [],
+      "program": "c:\\Users\\somya\\Downloads\\complete-javascript-course-master\\complete-javascript-course-master\\11-Arrays-Bankist\\starter\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
