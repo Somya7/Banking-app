@@ -154,9 +154,19 @@ inputTransferAmount.value=inputTransferTo.value="";
     updateUI(currentAcc);
   }
 });
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// LECTURES
+btnClose.addEventListener('click',function(e){
+  e.preventDefault();
+  if(inputCloseUsername.value===currentAcc.username && 
+    Number(inputClosePin.value)===  currentAcc.pin){
+      const index=accounts.findIndex(
+        acc=>acc.username===currentAcc.username);
+      accounts.splice(index,1); 
+     
+      containerApp.style.opacity=0;
+      inputCloseUsername.value
+      =inputClosePin.value=' ';
+  }
+})
 
 const currencies = new Map([
   ['USD', 'United States dollar'],
