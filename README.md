@@ -10,5 +10,13 @@
  -> Visit the app on : https://banking-app-iota.vercel.app/
  
  >ACCOUNT DETAILS
+
+
+
+
  >USER: js  PIN: 1111
+
+
+
+
  >USER: jd  PIN: 2222
