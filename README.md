@@ -14,7 +14,7 @@
 
 
 
- >USER: js  PIN: 1111
+ >USER name: js  PIN: 1111
 
 
 
